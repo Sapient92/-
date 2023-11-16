@@ -1,0 +1,60 @@
+.netflix-originals {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.original-movie-container {
+    display: flex;
+    margin-left: 20px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.original-movie {
+    margin: 16px 20px;
+    padding-top: 4px;
+    width: auto;
+}
+
+.original-movie img {
+    width: 140px;
+    height: auto;
+}
+
+.trending-now-word {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 8px;
+    padding-top: 8px;
+}
+
+.trending-now-container {
+    display: flex;
+    margin-left: 20px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.trending-now {
+    margin: 16px 20px;
+    padding-top: 4px;
+    width: auto;
+}
+
+.trending-now img {
+    width: 140px;
+    height: auto;
+}
+
+.original-movie img:hover {
+    transform: scale(1.2,1.2);
+    transition: all 0.8s ease 0s;
+}
+
+.trending-now img:hover {
+    transform: scale(1.2,1.2);
+    transition: all 0.8s ease 0s;
+}
